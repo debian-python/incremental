@@ -20,6 +20,7 @@ Vcs-Git: git://anonscm.debian.org/python-modules/packages/incremental.git
 Package: python-incremental
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
+Recommends: python-click, python-twisted-core
 Provides: ${python:Provides}
 Description: Library for versioning Python projects.
  Incremental is a small library that versions your Python projects.
@@ -29,6 +30,7 @@ Description: Library for versioning Python projects.
 Package: python3-incremental
 Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
+Recommends: python3-click, python3-twisted
 Provides: ${python3:Provides}
 Description: Library for versioning Python projects.
  Incremental is a small library that versions your Python projects.
