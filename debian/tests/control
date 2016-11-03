@@ -2,4 +2,6 @@ Tests: unit-tests-2 unit-tests-3
 Restrictions: needs-root
 Depends: @,
          python-twisted-core,
-         python3-twisted
+         python-click,
+         python3-twisted,
+         python3-click
